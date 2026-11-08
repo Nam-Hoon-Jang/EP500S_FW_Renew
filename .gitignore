@@ -1,0 +1,16 @@
+# 빌드 결과와 이관 전 보관한 캐시
+native/build/
+native/build.pre-migration*/
+
+# Python 실행 환경/캐시
+.venv/
+**/__pycache__/
+*.pyc
+
+# 시험 중 생성되는 Klippy C helper 및 로그
+reference/klippy/chelper/*.so
+reference/lib/hub-ctrl/hub-ctrl
+ready-results/
+*.log
+core
+core.*

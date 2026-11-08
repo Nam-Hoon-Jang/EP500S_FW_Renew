@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Due ARM",
+            "includePath": [
+                "${workspaceFolder}/native",
+                "${workspaceFolder}/native/base",
+                "${workspaceFolder}/native/klippy",
+                "${workspaceFolder}/vendor/sam3x/include",
+                "${workspaceFolder}/vendor/cmsis-core"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/arm-none-eabi-g++",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
